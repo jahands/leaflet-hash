@@ -18,7 +18,7 @@
 			hash = hash.substr(1);
 		}
 		if(hash.indexOf('/') === -1){
-			hash = hash.replace('i','/')
+			hash = hash.replace('i','/').replace(',','/')
 		}
 		var args = hash.split("/");
 		if (args.length == 3) {
